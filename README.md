@@ -1,4 +1,4 @@
-> Here is [DEMO](https://dianadiv.github.io/pokedex/](https://dianadiv.github.io/password-check/)
+> Here is [DEMO](https://dianadiv.github.io/password-check/)
 
 
 # PasswordCheck
