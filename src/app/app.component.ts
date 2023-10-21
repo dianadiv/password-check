@@ -26,12 +26,12 @@ export class AppComponent {
       this.colors = ["grey", "grey", "grey"];
     } else if (this.password.length < 8) {
       this.colors = ["red", "red", "red"];
-    } else if (/[a-zA-Z]/.test(this.password) && /[0-9]/.test(this.password) && /[!@#$%^&*]/.test(this.password)) {
+    } else if (/[a-zA-Z]/.test(this.password) && /[0-9]/.test(this.password) && /[!"№;%:?*()_+=\-*&^%$#@!|":}{\][\';\/.<>,]/.test(this.password)) {
       this.colors = ["green", "green", "green"];
     } else if (/[a-zA-Z]/.test(this.password)
         && /[0-9]/.test(this.password) || /[a-zA-Z]/.test(this.password)
-        && /[!@#$%^&*]/.test(this.password) || /[0-9]/.test(this.password)
-        && /[!@#$%^&*]/.test(this.password)) {
+        && /[!"№;%:?*()_+=\-*&^%$#@!|":}{\][\';\/.<>,]/.test(this.password) || /[0-9]/.test(this.password)
+        && /[!"№;%:?*()_+=\-*&^%$#@!|":}{\][\';\/.<>,]/.test(this.password)) {
       this.colors = ["yellow", "yellow", "grey"];
     } else {
       this.colors = ["green", "grey", "grey"];
