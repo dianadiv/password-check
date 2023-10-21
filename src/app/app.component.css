@@ -1,0 +1,74 @@
+:host {
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 8px 0;
+}
+
+p {
+    margin: 0;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.field__input {
+    position: relative;
+    width: 500px;
+}
+
+.icon-clear {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.icon-eye {
+    position: absolute;
+    right: 40px;
+    top: 8px;
+}
+
+.icon-eye:hover,
+.icon-clear:hover {
+    cursor: pointer;
+}
+
+.indicators {
+    width: 200px;
+}
